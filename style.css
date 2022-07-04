@@ -5,16 +5,16 @@ body{
 .top-banner{
   display: flex;
 }
-.left-side{
+.top-banner .left-side{
   width: 45%;
   padding-left: 90px;
 }
-.right-side{
+.top-banner .right-side{
   width: 55%;
   padding-left: 90px;
 }
-.right-side img{
-  width: 90%;
+.top-banner .right-side img{
+  width: 87%;
   
 }
 h1{
@@ -26,7 +26,7 @@ h1{
 .top-banner p{
   color: #776B69;
 }
-.top-banner a{
+.link-button {
   color: #ffffff;
   text-transform: uppercase;
   background-image: linear-gradient(90deg,#FF9974,#FF694C);
@@ -38,4 +38,29 @@ h1{
 .top-banner{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+/*================================== mid section ====================================*/
+.mid-section{
+  display: flex;
+}
+.mid-section .left-side{
+  width: 50%;
+  padding-left: 90px;
+}
+.mid-section .right-side{
+  width: 50%;
+}
+.mid-section .left-side img{
+  width: 85%;
+  
+}
+.mid-section p{
+  color: #776B69;
+  width: 85%;
+}
+.mid-section{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-top:145px;
 }
