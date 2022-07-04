@@ -2,7 +2,7 @@ body{
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
-.top-banner{
+.flexible-container{
   display: flex;
 }
 .top-banner .left-side{
@@ -40,9 +40,7 @@ h1{
   background-repeat: no-repeat;
 }
 /*================================== mid section ====================================*/
-.mid-section{
-  display: flex;
-}
+
 .mid-section .left-side{
   width: 50%;
   padding-left: 90px;
@@ -63,4 +61,47 @@ h1{
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-top:145px;
+}
+/* =============================== last section ==================================== */
+.experiences{
+  display: flex;
+  
+}
+.developer-experience{
+  width: 40%;
+  box-shadow: 0px 0px 30px gray;
+  padding-left: 30px;
+  
+}
+.developer-experience p{
+  margin-bottom: 90px;
+}
+.experiences p{
+  color:#776B69 ;
+}
+#full-stack-developer{
+  margin-left: 5%;
+  margin-right: 2.5%;
+  border-left: 7px solid #FF6347;
+}
+#baby-developer{
+  margin-left: 2.5%;
+  margin-right: 5%;
+  border-left: 7px solid #0000FF;
+}
+.experiences h2{
+  font-size: 40px;
+}
+.last-section{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-bottom:180px;
+  margin-top: 150px;
+  
+  
+}
+footer p{
+  text-align: center;
+  color:#776B69 ;
 }
